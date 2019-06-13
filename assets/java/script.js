@@ -51,7 +51,7 @@ $(document).on("click", ".topic", function () {
                         "data-state": "still"
                     });
                     var para = $("<p>").text("Rating: " + rating);
-                    gifDiv.append(para, imageGif);
+                    gifDiv.append(imageGif, para);
                     $(".row").prepend(gifDiv);
                 }
             }
