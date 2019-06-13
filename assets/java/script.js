@@ -74,7 +74,14 @@ $(document).on("click", ".gif", function () {
 
 });
 
+$(document).on("click", "#submit-button",function(event){
+    event.preventDefault();
+    var searchInput = $("#user-input").val();
+    console.log(searchInput);
+    topics.push(searchInput);
+    renderButtons();
 
+});
 
 renderButtons();
 

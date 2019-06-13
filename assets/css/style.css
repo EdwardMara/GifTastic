@@ -1,9 +1,11 @@
 .container-nav{
     text-align: center;
+    margin-top: 10px;
     
 }
 .container-search{
     margin-top: 10px;
+    text-align: center;
 
 }
 .row{
